@@ -15,3 +15,12 @@ prettier: javascript formatter run before commit
 - Add "node-saas" for scss
 
 - Add .env file for configuration
+
+
+
+## 2. Structure 
+- Add directories (js, scss) for each component
+  
+- Add lib (foundation, jquery, what-input, motion-ui)
+
+- add directory (images)
