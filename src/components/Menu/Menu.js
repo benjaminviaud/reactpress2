@@ -1,8 +1,8 @@
 import React from 'react';
-import $ from 'jquery';
 import { Menu as Nav, MenuItem } from 'react-foundation';
 import { DropdownMenu } from 'foundation-sites';
 import './Menu.scss';
+import $ from 'jquery';
 
 class Menu extends React.Component {
   componentDidMount() {
@@ -13,7 +13,7 @@ class Menu extends React.Component {
     return (
       <Nav isDropdown>
         <MenuItem>
-          <a href="#t">One</a>
+          <a href="/">Home</a>
           <Nav isVertical>
             <MenuItem>
               <a href="#t">One</a>
@@ -27,7 +27,7 @@ class Menu extends React.Component {
           </Nav>
         </MenuItem>
         <MenuItem>
-          <a href="#t">Two</a>
+          <a href="/about">About</a>
         </MenuItem>
         <MenuItem>
           <a href="#t">Three</a>

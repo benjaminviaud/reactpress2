@@ -24,3 +24,11 @@ prettier: javascript formatter run before commit
 - Add lib (foundation, jquery, what-input, motion-ui)
 
 - add directory (images)
+
+
+## 3. Router
+- Add lib (react-router-dom) 
+
+- Add router in root file (index.js)
+
+- Update 'href' link in menu (Menu.js)
